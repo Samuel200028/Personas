@@ -1,0 +1,49 @@
+﻿<Window x:Class="PersonV.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vm="clr-namespace:PersonVM;assembly=PersonVM"
+        xmlns:local="clr-namespace:PersonV"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <vm:MainPerson x:Key="MainPerson"></vm:MainPerson>
+    </Window.Resources>
+    <Grid DataContext="{Binding Source={StaticResource MainPerson}}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Button Grid.Row="0" Content="D D" Margin="20,20,20,20" Command="{Binding MoverDD}"></Button>
+            <Button Grid.Row="1" Content="D" Margin="20,20,20,20" Command="{Binding MoverD}"></Button>
+            <Button Grid.Row="2" Content="I I" Margin="20,20,20,20" Command="{Binding MoverII}"></Button>
+            <Button Grid.Row="3" Content="I" Margin="20,20,20,20" Command="{Binding MoverI}"></Button>
+        </Grid>
+
+         <DataGrid ItemsSource="{Binding Personas1}" AutoGenerateColumns="False" Grid.Column="0" Margin="10,10,10,10" IsReadOnly="True" SelectionUnit="Cell" FontFamily="Tahoma" FontSize="12" AlternatingRowBackground="#FFA3F3EE">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding Id}" />
+                <DataGridTextColumn Header="Nombre" Binding="{Binding Nombre}" />
+                <DataGridTextColumn Header="Correo" Binding="{Binding Correo}" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <DataGrid ItemsSource="{Binding Personas2}" AutoGenerateColumns="False" Grid.Column="2" Margin="10,10,10,10" IsReadOnly="True" SelectionUnit="Cell" FontFamily="Tahoma" FontSize="12" AlternatingRowBackground="#FFA3F3EE">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding Id}" />
+                <DataGridTextColumn Header="Nombre" Binding="{Binding Nombre}" />
+                <DataGridTextColumn Header="Correo" Binding="{Binding Correo}" />
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

@@ -1,0 +1,9 @@
+D:\Archivos\Visual Studio\PMVVM\PersonVM\bin\Debug\PersonVM.dll
+D:\Archivos\Visual Studio\PMVVM\PersonVM\bin\Debug\PersonVM.pdb
+D:\Archivos\Visual Studio\PMVVM\PersonVM\bin\Debug\PersonM.dll
+D:\Archivos\Visual Studio\PMVVM\PersonVM\bin\Debug\PersonM.pdb
+D:\Archivos\Visual Studio\PMVVM\PersonVM\obj\Debug\PersonVM.csproj.AssemblyReference.cache
+D:\Archivos\Visual Studio\PMVVM\PersonVM\obj\Debug\PersonVM.csproj.CoreCompileInputs.cache
+D:\Archivos\Visual Studio\PMVVM\PersonVM\obj\Debug\PersonVM.csproj.CopyComplete
+D:\Archivos\Visual Studio\PMVVM\PersonVM\obj\Debug\PersonVM.dll
+D:\Archivos\Visual Studio\PMVVM\PersonVM\obj\Debug\PersonVM.pdb

@@ -1,0 +1,6 @@
+D:\Archivos\Visual Studio\PMVVM\PersonM\bin\Debug\PersonM.dll
+D:\Archivos\Visual Studio\PMVVM\PersonM\bin\Debug\PersonM.pdb
+D:\Archivos\Visual Studio\PMVVM\PersonM\obj\Debug\PersonM.csproj.AssemblyReference.cache
+D:\Archivos\Visual Studio\PMVVM\PersonM\obj\Debug\PersonM.csproj.CoreCompileInputs.cache
+D:\Archivos\Visual Studio\PMVVM\PersonM\obj\Debug\PersonM.dll
+D:\Archivos\Visual Studio\PMVVM\PersonM\obj\Debug\PersonM.pdb
